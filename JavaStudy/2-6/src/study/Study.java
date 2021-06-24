@@ -28,7 +28,7 @@ public class Study {
 
         // 問② 「(Calendar.MONTH) + 数値」の処理は、想定していない値となる可能性があります。
         // その理由をコメントへ記述してください。
-        //  Calendar.MONTH はJANUARYの値が0から始まるから実際の月の値は、「-1」の値を保持しているから
+        //  「13月、14月、15月」という表示になってしまったり、都市の加算減算はしてくれないから。
         System.out.println(calendar.get(Calendar.YEAR));
         System.out.println(calendar.get(Calendar.MONTH) + 1);
         System.out.println(calendar.get(Calendar.DATE));
@@ -36,11 +36,11 @@ public class Study {
         // - この課題に関しては課題実施日によって結果が異なりますので、Wiki課題の画像とは結果が異なります。
         // - また、うるう年の場合は設定内容が正しくとも日付がズレて表示される可能性があります。
         calendar.add(Calendar.YEAR,1);
-        calendar.add(Calendar.MONTH,2);
+        calendar.add(Calendar.MONTH,3);
         calendar.add(Calendar.DATE,14);
         
         System.out.println(calendar.get(Calendar.YEAR));
-        System.out.println(calendar.get(Calendar.MONTH) + 1);
+        System.out.println(calendar.get(Calendar.MONTH));
         System.out.println(calendar.get(Calendar.DATE));
 
 
