@@ -14,7 +14,19 @@
         width: 100px;
     }
 
+    .right-top{
+        width: 200px;
+    }
+
     .right-top-left { 
+        width: 125px;
+    }
+
+    .yellow{
+        width: 125px;
+    }
+
+    .blue{
         width: 125px;
     }
 
