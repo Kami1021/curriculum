@@ -1,0 +1,46 @@
+.header { 
+    height: 100px; 
+    width: 400px;
+    background-color: #141f40;
+    color: white;
+}
+
+
+.wrapper { 
+    
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.contents { 
+    height: 250px;
+}
+
+.left { 
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    color: white;
+}
+
+.right { 
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    color: white;
+}
+
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+    color: white;
+    width: 400px;
+ 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
