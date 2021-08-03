@@ -1,0 +1,17 @@
+div.header{
+	background-color: gray;
+	padding:0px;
+}
+
+span.left{
+	display: inline-block;
+	color: white;
+	padding: 10px;
+	
+}
+
+span.right{
+	font-size: 10px;
+	color: black;
+	padding: 10px
+}
