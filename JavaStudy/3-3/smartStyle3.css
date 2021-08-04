@@ -32,6 +32,10 @@
         margin: 0px 10px 10px 10px;
     }
 
+    .contents{
+        width: 200px;
+    }
+
     .left{
         width: 200px;
         height: 100px;
