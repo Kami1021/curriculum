@@ -70,7 +70,7 @@ SELECT * FROM store_table ORDER BY store_nameabc ASC
 -- [回答]
  SELECT store_name,goods_name,quantity FROM stock_table
  JOIN store_table ON stock_table.store_code = store_table.store_code
- join goods_table on stock_table.store_code = store_table.store_code;
+ JOIN goods_table ON stock_table.store_code = store_table.store_code;
  
 -- 4. 商品テーブルから全商品の単価の平均値を抽出しなさい。
 -- [回答]
@@ -79,7 +79,7 @@ SELECT AVG(price) FROM goods_table
 -- 5. 店舗コード='EA01'の在庫数の平均値より大きい在庫数を持つ店舗コードを抽出しなさい。
 -- [回答]
  SELECT store_code FROM stock_table WHERE 
- quantity > (SELECT AVG(quantity)FROM stock_table GROUP BY store_code HAVING store_code = 'EA01')
+ quantity > (SELECT AVG(quantity) FROM stock_table WHERE store_code = 'EA01')
  
 -- 6. 商品テーブルに「商品コード='M001'、商品名='マフラー'、単価=4500円、更新日付=本日日付」のデータを追加しなさい。※実行後のSELECT結果も貼付すること。
 -- [回答]
