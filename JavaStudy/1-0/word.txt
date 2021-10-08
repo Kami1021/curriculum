@@ -100,25 +100,35 @@ Windowsの標準Webサーバーソフトウエア
 Windowsベースで開発が行われることが多く、IIS自体の信頼性もある。
 
 ■ SQL
-SQL
+・SQL
 アプリ開発で必須のデータベースを操作する言語
 
-DB2
+・DB2
 Db2とはIBM社が提供するリレーショナル型データベース管理システム（RDBMS）
 UnixやWindowsなどのプラットホームにも対応
 
-MySQL
+・MySQL
 MySQL（マイ・エスキューエル）とは世界中の多くの企業が使用しているデータベース管理システム
 
-Maria DB
+・Maria DB
 MariaDBは世界でもっとも普及しているオープンソースのRDBMSであるMySQLから派生したレーショナルデータベース
 MySQLのソースコードをベースにして、
 新機能追加やソースコードの改善が組み込まれています。
 
-Oracle DB
-PostgreSQL
-SQLite
-SQL Server
+・Oracle DB
+オラクル社が開発・販売しているリレーショナル・データベース管理システム（有償）
+
+・PostgreSQL
+オープンソースのリレーショナルデータベース管理システム（RDBMS）です（無料）。
+
+。SQLite
+オープンソースで軽量のRDBMS（データベース管理システム）
+簡易的な（ライトな）データベースであり、サーバーとしてではなくアプリケーションに組み込むことで利用します。
+
+・SQL Server（Microsoft SQL Server）
+Microsoft社が開発したRDBMS（データベース管理システム）です。
+Microsoft社が開発しているため、Windows OSとの相性がよく、Windows Serverで利用されることが多いデータベース（一部無償）
+
 CRUD
 トランザクション
 コミット
